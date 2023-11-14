@@ -51,6 +51,39 @@ regen.onTick(function(){
 })
 ```
 
+## 文档
+
+- [API](#api)
+  - [Client](api/client.md)
+  - [Font](api/font.md)
+  - [Keybinds](api/keybinds.md)
+  - [Notification](api/notification.md)
+  - [Player](api/player.md)
+  - [Render](api/render.md)
+  - [World](api/world.md)
+- [Enum](#enum)
+  - [Action](enum/action.md)
+  - [Facing](enum/facing.md)
+  - [Potion](enum/potion.md)
+- [Event](#event)
+  - [Events](event/events.md)
+  - [GUI Events](event/guiEvents.md)
+  - [Motion Update](event/motionupdate.md)
+  - [Packet](event/packet.md)
+- [Type](#type)
+  - [Category](type/category.md)
+  - [Entity](type/entity.md)
+  - [Font](type/font.md)
+  - [GuiScreen](type/GuiScreen.md)
+  - [Item](type/item.md)
+  - [ItemStack](type/itemstack.md)
+  - [Module](type/module.md)
+  - [Rotation](type/rotation.md)
+  - [Scaled Resolution](type/ScaledResolution.md)
+  - [Timer](type/timer.md)
+  - [Value](type/value.md)
+
+
 ## 基本方法
 
 ### `boolOption(String name, boolean initialValue)`
