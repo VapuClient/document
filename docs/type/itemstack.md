@@ -22,3 +22,17 @@
 
 - 返回值：
   - `ItemStack` 对象的堆叠数量。
+
+ ### `getInternalName()`
+
+获取包装的 `ItemStack` 对象的键名。
+
+- 返回值：
+  - `ItemStack` 对象的键名。
+ 
+### `getName()`
+
+获取包装的 `ItemStack` 对象的名字。
+
+- 返回值：
+  - `ItemStack` 对象的名字。
