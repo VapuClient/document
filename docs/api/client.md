@@ -160,6 +160,11 @@
 
 - 返回值: 如果按键按下，则返回 `true`，否则返回 `false`。
 
+#### getTarget()
+返回LegitAura目标
+
+- 返回值: 返回Entity，如果没有目标则返回null
+
 ### 获取指定模块
 
 #### getModule(moduleName: String)
