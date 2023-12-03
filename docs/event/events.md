@@ -49,3 +49,9 @@ module.onPacketSend(PacketEvent event);
 module.onPacketReceive(PacketEvent event);
 
 当数据包接收事件发生时，此方法会被调用。 `event` 参数是 `PacketEvent` 类型的事件对象，包含有关数据包接收的信息。
+
+### onStrafe
+
+module.onStrafe(StrafeEvent event);
+
+当运动事件发生时，此方法会被调用。 `event` 参数是 `StrafeEvent` 类型的事件对象，包含有关运动方向的信息。
